@@ -1,0 +1,28 @@
+{
+  "name": "music-helper",
+  "version": "1.1.0",
+  "description": "Music search and download tool with automated authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --help"
+  },
+  "keywords": [
+    "music",
+    "download",
+    "flac",
+    "mp3",
+    "search",
+    "lyrics"
+  ],
+  "author": "Music Helper Team",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^23.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
